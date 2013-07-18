@@ -9,13 +9,13 @@
    "content_scripts": [
       {
          "matches": ["<all_urls>"],
-         "js": ["app.js"],
-         "css": ["app.css"],
+         "js": ["f5.js"],
+         "css": ["f5.css"],
          "run_at": "document_start",
          "all_frames": false
       }
    ],
    "background": {
-      "scripts": ["background.js"]
+      "scripts": ["f5-background.js"]
    }
 }
